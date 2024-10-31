@@ -6,4 +6,4 @@ COPY bin .
 
 ENTRYPOINT ["mvn"]
 
-CMD ["clean", "install", "compile", "exec:java"]
+CMD ["clean", "install", "compile", "spring-boot:run"]
